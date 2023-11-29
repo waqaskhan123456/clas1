@@ -1,0 +1,37 @@
+.parent
+{
+    border: px solid red;
+    display: flex;
+    /* agar ya colum per ajai to row ko change karo */
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    align-content: center;
+}
+.child{
+    width: 100px;
+     height: 100px; 
+    background-color: bisque;
+    color: brown;
+    font-size: 50px;
+    border: 7px solid greenyellow;
+     margin: 10px; 
+     align-content: center;
+}
+.khan{
+background-color: blue;
+display: flex;
+gap: 10px;
+}
+.khan1{
+    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    width: 50px;
+    height: 60px;
+    flex-grow: 3;
+    
+}
+.
